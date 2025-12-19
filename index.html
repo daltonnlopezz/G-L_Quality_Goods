@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G&L Quality Goods - Premium Brand Consolidation</title>
+    <meta name="description" content="Discover premium quality goods from our curated collection of trusted brands">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <img src="public/images/logos/logo-2.png" alt="G&L Quality Goods" class="logo-image">
+            </div>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-links" id="navLinks">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#brands" class="nav-link">Brands</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to G&L Quality Goods</h1>
+            <p class="hero-subtitle">
+                Your trusted destination for premium quality goods from the world's finest brands. 
+                We consolidate excellence, bringing you the best in one place.
+            </p>
+            <div class="hero-buttons">
+                <a href="#brands" class="btn btn-primary">Explore Brands</a>
+                <a href="#about" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25"></path>
+                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5"></path>
+                <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose G&L Quality Goods?</h2>
+                <p class="section-subtitle">
+                    We bring together the best brands under one roof, making quality accessible and convenient.
+                </p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">✓</div>
+                    <h3 class="feature-title">Curated Selection</h3>
+                    <p class="feature-description">
+                        Every brand in our collection is carefully selected for quality, reliability, and excellence.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">✓</div>
+                    <h3 class="feature-title">Trusted Brands</h3>
+                    <p class="feature-description">
+                        We partner with established brands known for their commitment to quality and customer satisfaction.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">✓</div>
+                    <h3 class="feature-title">One Destination</h3>
+                    <p class="feature-description">
+                        Find everything you need in one convenient place, saving you time and effort.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">✓</div>
+                    <h3 class="feature-title">Quality Guaranteed</h3>
+                    <p class="feature-description">
+                        We stand behind every product, ensuring you receive only the highest quality goods.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brand Showcase -->
+    <section class="brands" id="brands">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Brand Partners</h2>
+                <p class="section-subtitle">
+                    Discover quality goods from our carefully curated selection of trusted brands
+                </p>
+            </div>
+            
+            <!-- Category Filter -->
+            <div class="category-filter" id="categoryFilter">
+                <button class="filter-btn active" data-category="all">All Brands</button>
+                <button class="filter-btn" data-category="home">Home</button>
+                <button class="filter-btn" data-category="tech">Tech</button>
+                <button class="filter-btn" data-category="fashion">Fashion</button>
+                <button class="filter-btn" data-category="outdoor">Outdoor</button>
+                <button class="filter-btn" data-category="wellness">Wellness</button>
+                <button class="filter-btn" data-category="kitchen">Kitchen</button>
+            </div>
+
+            <!-- Brand Grid -->
+            <div class="brands-grid" id="brandsGrid">
+                <!-- Brands will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2 class="cta-title">Ready to Discover Quality?</h2>
+            <p class="cta-subtitle">
+                Join thousands of satisfied customers who trust G&L Quality Goods for their premium product needs.
+            </p>
+            <div class="cta-buttons">
+                <a href="#brands" class="btn btn-primary">Browse All Brands</a>
+                <a href="#contact" class="btn btn-secondary-white">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="public/images/logos/logo-2.png" alt="G&L Quality Goods" class="footer-logo">
+                    <p class="footer-description">
+                        Your trusted destination for premium quality goods from the world's finest brands. 
+                        We consolidate excellence, bringing you the best in one place.
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#brands">Brands</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-heading">Connect</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> G&L Quality Goods. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

@@ -12,7 +12,6 @@ export default function BrandShowcase() {
       name: 'Premium Home',
       description: 'Luxury home goods and furnishings',
       category: 'home',
-      image: '🏠',
       color: 'from-blue-500 to-blue-600',
     },
     {
@@ -20,7 +19,6 @@ export default function BrandShowcase() {
       name: 'Tech Essentials',
       description: 'Cutting-edge technology products',
       category: 'tech',
-      image: '💻',
       color: 'from-purple-500 to-purple-600',
     },
     {
@@ -28,7 +26,6 @@ export default function BrandShowcase() {
       name: 'Fashion Forward',
       description: 'Trendsetting apparel and accessories',
       category: 'fashion',
-      image: '👔',
       color: 'from-pink-500 to-pink-600',
     },
     {
@@ -36,7 +33,6 @@ export default function BrandShowcase() {
       name: 'Outdoor Adventure',
       description: 'Gear for the great outdoors',
       category: 'outdoor',
-      image: '⛺',
       color: 'from-green-500 to-green-600',
     },
     {
@@ -44,7 +40,6 @@ export default function BrandShowcase() {
       name: 'Wellness & Health',
       description: 'Products for a healthier lifestyle',
       category: 'wellness',
-      image: '🧘',
       color: 'from-orange-500 to-orange-600',
     },
     {
@@ -52,7 +47,6 @@ export default function BrandShowcase() {
       name: 'Gourmet Kitchen',
       description: 'Premium kitchenware and culinary tools',
       category: 'kitchen',
-      image: '🍳',
       color: 'from-red-500 to-red-600',
     },
   ]

@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
 export const metadata: Metadata = {
-  title: 'G&L Quality Goods - Premium Brand Consolidation',
+  title: 'G&L Quality Goods',
   description: 'Discover premium quality goods from our curated collection of trusted brands',
 }
 

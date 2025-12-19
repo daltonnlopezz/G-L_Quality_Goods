@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-gray-300">
+    <footer className="bg-black text-gray-300 border-t-2 border-gold">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
@@ -24,22 +24,22 @@ export default function Footer() {
             <h4 className="text-white font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="/" className="hover:text-white transition">
+                <Link href="/" className="hover:text-gold transition">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/brands" className="hover:text-white transition">
+                <Link href="/brands" className="hover:text-gold transition">
                   Brands
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="hover:text-white transition">
+                <Link href="/about" className="hover:text-gold transition">
                   About
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="hover:text-white transition">
+                <Link href="/contact" className="hover:text-gold transition">
                   Contact
                 </Link>
               </li>
@@ -50,22 +50,22 @@ export default function Footer() {
             <h4 className="text-white font-semibold mb-4">Connect</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="hover:text-white transition">
+                <a href="#" className="hover:text-gold transition">
                   Facebook
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition">
+                <a href="#" className="hover:text-gold transition">
                   Twitter
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition">
+                <a href="#" className="hover:text-gold transition">
                   Instagram
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition">
+                <a href="#" className="hover:text-gold transition">
                   LinkedIn
                 </a>
               </li>

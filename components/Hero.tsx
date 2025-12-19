@@ -1,26 +1,26 @@
 export default function Hero() {
   return (
-    <section className="relative bg-gradient-to-br from-primary-600 via-primary-700 to-primary-800 text-white">
-      <div className="absolute inset-0 bg-black opacity-10"></div>
+    <section className="relative bg-gradient-to-br from-black via-gray-900 to-black text-white border-b-2 border-gold">
+      <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
         <div className="text-center">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight mb-6">
             Welcome to G&L Quality Goods
           </h1>
-          <p className="mt-6 text-xl sm:text-2xl text-primary-100 max-w-3xl mx-auto">
+          <p className="mt-6 text-xl sm:text-2xl text-gold-light max-w-3xl mx-auto">
             Your trusted destination for premium quality goods from the world's finest brands. 
             We consolidate excellence, bringing you the best in one place.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="#brands"
-              className="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-primary-700 bg-white hover:bg-primary-50 transition duration-150 ease-in-out shadow-lg hover:shadow-xl"
+              className="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-black bg-gold hover:bg-gold-light transition duration-150 ease-in-out shadow-lg hover:shadow-xl"
             >
               Explore Brands
             </a>
             <a
               href="#about"
-              className="inline-flex items-center justify-center px-8 py-3 border-2 border-white text-base font-medium rounded-md text-white bg-transparent hover:bg-white hover:text-primary-700 transition duration-150 ease-in-out"
+              className="inline-flex items-center justify-center px-8 py-3 border-2 border-gold text-base font-medium rounded-md text-gold bg-transparent hover:bg-gold hover:text-black transition duration-150 ease-in-out"
             >
               Learn More
             </a>

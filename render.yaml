@@ -3,6 +3,7 @@ services:
     name: gl-quality-goods
     env: node
     plan: free
+    nodeVersion: 20
     buildCommand: npm install && npm run build
     startCommand: npm start
     envVars:
